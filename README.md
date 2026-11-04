@@ -40,7 +40,7 @@ npx skills add Collappo/skills
 ## Structure
 
 ```
-skills/                    # Skills published by this repo
+skills/
 └── more-commits/
     └── SKILL.md           # Commit workflow: units, repo adaptation, recovery
 ```
