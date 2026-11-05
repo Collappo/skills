@@ -16,7 +16,7 @@ There is no app, build or test suite. The product is `skills/<name>/SKILL.md`.
 | Path | Role |
 |---|---|
 | `skills/<name>/` | Skills this repo publishes. Edit here. |
-| `.agents/skills/` | Dev tooling installed by `npx skills` (ponytail from `dietrichgebert/ponytail`, skill-creator from `vercel-labs/json-render`), recorded with hashes in `skills-lock.json`. Upstream copies: do not edit. `skill-creator` is gitignored; restore it with `npx skills experimental_install`. |
+| `.agents/skills/` | Dev tooling installed by `npx skills`. Do not edit without user ask! |
 | `.claude/skills` | Committed relative symlink to `../.agents/skills`, so Claude Code loads the dev tooling here. On Windows, recreating it needs Developer Mode or admin: `cmd /c mklink /D .claude\skills ..\.agents\skills`. |
 
 ## Commands
